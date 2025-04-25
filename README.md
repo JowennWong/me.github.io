@@ -13,4 +13,4 @@ Alt-H1
 Alt-H2
 ------
 
-Elo, mi name Gewns
+Elo, mi name Gewn
