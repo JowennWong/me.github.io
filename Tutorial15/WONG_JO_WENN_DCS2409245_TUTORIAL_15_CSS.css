@@ -1,0 +1,32 @@
+<style>
+
+body
+{
+background-color:oldlace;
+}
+
+body
+{
+background:linear-gradient(0deg, #ADD8E6, white);
+
+}
+
+.css2
+{
+width:300px;
+height:300px;
+box-shadow: 5px 5px 10px #9966CC;
+}
+
+.css3
+{
+list-style: none;
+}
+.css3 li::before
+{
+content:"🍕";
+position:absolute;
+left:0;
+}
+
+</style>
