@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Compiler University</title>
+<link rel=icon href="CompilerLogo.png" type=image/png>
+<link rel="stylesheet" href="WONG_JO_WENN_DCS2409245_PROJECT_CSS.css">
+<meta name=viewport content=width=device-width, initial scale=1.0>
+
+<style>
+
+body
+{
+margin:20px;
+}
+
+.MainTitleFont
+{
+font-family:"Comic Sans MS";
+width:700px;
+background-color:white;
+font-size:400%;
+padding:35px 10px;
+padding-left:50;
+}
+
+</style>
+
+<script>
+
+document.getElementById("registerForm").addEventListener("submit", function(e) {
+e.preventDefault();
+const name = document.getElementById("RegName").value;
+const pass = document.getElementById("regPass").value;
+
+sessionStorage.setItem("userName", name);
+sessionStorage.setItem("userPass", pass);
+window.alert("Account Successfully Registered!");
+
+window.location.href = 'CompilerStudentPortal.html';
+});
+
+</script>
+
+<body style="background-color:oldlace ;background:linear-gradient(180deg, oldlace, gray);" alink=#4EE2EC vlink=#0F52BA>
+<form id="registerForm">
+<img src="CompilerLogo.png" width=150 height=150 align=left><h1 class="MainTitleFont">Registration</h1>
+<br>
+<br>
+<br>
+<br>
+<hr size=30 color=oldlace>
+<br>
+<br>
+<br>
+<center>
+<p style="background-color:oldlace;
+color:#696969;font-family:impact;
+font-size:160%;
+text-align:center;
+width:60%;height:90%;">
+
+<font size=30>Registration</font>
+<br>
+<br>
+<br>
+<table align=center cellpadding=20>
+
+<tr align=left>
+<th style="font-weight:normal;">Student Name:</th>
+<th><input type=text name=fname id="RegName" required></th>
+</tr>
+
+<tr align=left>
+<td>IC Number/Passport Number:</td>
+<td><input type=text name=fname maxlength=15 required></td>
+</tr>
+
+<tr align=left>
+<td>Log-In Password:</td>
+<td><input type=password name=fname maxlength=15 id="RegPass" required></td>
+</tr>
+
+<tr align=left>
+<td>Gender:</td>
+<td><input type = radio name = gender value = Male> Male</td>
+<td><input type = radio name = gender value = Female> Female</td>
+</tr>
+
+<tr align=left>
+<td>Date Of Birth:</td>
+<td><input type = date name = dob required></td>
+</tr>
+
+<tr align=left>
+<td>Address:</td>
+<td><textarea rows=4 cols=30 name=address required></textarea></td>
+</tr>
+
+<tr align=left>
+<td>Phone Number:</td>
+<td><input type=text name=fname maxlength=10 required></td>
+</tr>
+
+</table>
+<br>
+<br>
+<input type ="submit">
+<input type ="reset">
+</center>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<a href="WONG_JO_WENN_DCS2409245_PROJECT.html">Return to Home</a>
+</center>
+</body>
+</html>

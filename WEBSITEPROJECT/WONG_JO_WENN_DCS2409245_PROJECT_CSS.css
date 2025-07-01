@@ -1,0 +1,70 @@
+<style>
+
+body
+{
+background-color:blue;
+}
+
+body
+{
+margin: 0px;
+background:linear-gradient(180deg, oldlace, gray);
+}
+
+.messagefont
+{
+font-family:"Times New Roman";
+font-size:300%;
+}
+
+.descriptionfont
+{
+font-family:"Comic Sans MS";
+font-size:100%
+}
+
+
+
+/*Ribbon Creator*/
+.ribbon
+{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:15px 100px;
+color:black;
+font-weight:normal;
+background-color:oldlace;
+flex-wrap:wrap;
+}
+
+.ribbon a
+{
+text-decoration:none;
+font-family:"Impact";
+}
+
+.ribbon span::after
+{
+content:"|";
+padding:0px 100px;
+}
+
+.ribbon span:last-child::after
+{
+padding-left:0;
+padding-right:0;
+content:"";
+}
+
+
+
+/*Button_CSS*/
+
+input.TextBox
+{
+padding: 20px;
+height: 25px;
+}
+
+</style>

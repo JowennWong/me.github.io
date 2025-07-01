@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Compiler University</title>
+<link rel=icon href="CompilerLogo.png" type=image/png>
+<link rel="stylesheet" href="WONG_JO_WENN_DCS2409245_PROJECT_CSS.css">
+<meta name=viewport content=width=device-width, initial scale=1.0>
+
+<style>
+
+.MainTitleFont
+{
+font-family:"Comic Sans MS";
+width:700px;
+background-color:white;
+font-size:400%;
+padding:35px 10px;
+padding-left:50;
+}
+
+body
+{
+margin:20px;
+}
+
+</style>
+
+<script>
+
+document.getElementById("LoginForm").addEventListener("submit", function(e) {
+e.preventDefault();
+
+const loginName = document.getElementById("loginName").value;
+const loginPass = document.getElementById("loginPass").value;
+
+const storedName = sessionStorage.getItem("userName");
+const storedPass = sessionStorage.getItem("userPass");
+
+if (NameBox === storedName && PasswordBox === storedPass) {
+
+window.alert("Account successfully logged in!");
+
+} else {
+
+window.alert("Incorrect Name or Password");
+}
+
+});
+
+</script>
+
+<body style="background-color:oldlace ;background:linear-gradient(180deg, oldlace, gray);" alink=#4EE2EC vlink=#0F52BA>
+
+<img src="CompilerLogo.png" width=150 height=150 align=left><h1 class="MainTitleFont">Student Portal</h1>
+
+<br>
+<br>
+<br>
+<br>
+
+<hr size=30 color=oldlace>
+
+<br>
+<br>
+<br>
+
+<script type="text/javascript" src="javascript3_script.js"></script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form id="LoginForm">
+<input type="text" id="NameBox" placeholder="Insert Name" class="TextBox" style="margin-top:30px;margin-left:400px;" id="loginName" required>
+
+<br>
+<br>
+<br>
+
+<input type="password" id="PasswordBox" placeholder="Type Password" class="TextBox" style="margin-top:30px;margin-left:400px;" id="loginPass" required>
+
+<br>
+<br>
+<br>
+<center>
+<button type="submit">Login</button>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<a href="WONG_JO_WENN_DCS2409245_PROJECT.html">Return to Home</a>
+</center>
+</form>
+</body>
+</html>
