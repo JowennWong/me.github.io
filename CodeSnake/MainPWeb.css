@@ -1,0 +1,41 @@
+body
+{
+min-height:100vh;
+background-image:linear-gradient(to bottom, #004400, #00CA00);
+}
+
+font.Intro
+{
+font-family:"Cascadia Code";
+font-weight:bold;
+color:lime;
+font-size:24px;
+}
+
+font.Clickables
+{
+font-family:"Cascadia Code";
+font-weight:bold;
+color:black;
+font-size:16px;
+}
+
+.IMGResponsiveGovernor
+{
+max-width:100%;
+height:auto;
+}
+
+.ClickRibbon
+{
+position: relative;
+bottom:0;
+left:0;
+width:100%;
+height:25%;
+background-color: #11FF11;
+z-index:1;
+padding:20px;
+padding-left:200px;
+padding-right:200px;
+}
