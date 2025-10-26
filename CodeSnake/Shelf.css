@@ -1,0 +1,26 @@
+.Shelf
+{
+display:grid;
+gap:20px;
+grid-template-columns: repeat(3, 1fr);
+max-width: 1200px;
+margin:auto;
+}
+
+.Shelf div
+{
+padding:20px;
+border:5px;
+border-color:#11FF11;
+text-align:center;
+}
+
+@media (max-width:600px)
+{
+
+.Shelf
+{
+grid-template-columns:repeat(2, 1fr);
+}
+
+}
